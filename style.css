@@ -1,0 +1,118 @@
+/* KOLAPEX - Colorful Shopping Website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7ff;
+    color: #24213d;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #6c35e8, #ed3e9c);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+.welcome {
+    background: linear-gradient(120deg, #fff0f7, #eee8ff);
+    padding: 65px 25px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(65, 35, 120, 0.08);
+}
+
+.welcome h2 {
+    font-size: clamp(28px, 5vw, 42px);
+    color: #642be8;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 17px;
+    color: #625c75;
+    margin-bottom: 25px;
+}
+
+button {
+    background: linear-gradient(135deg, #7138eb, #ec3c9a);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(113, 56, 235, 0.3);
+}
+
+.products {
+    margin-top: 35px;
+    padding: 30px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(65, 35, 120, 0.06);
+    text-align: center;
+}
+
+.products h2 {
+    color: #642be8;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.products p {
+    color: #777187;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    color: #777187;
+    background: white;
+    border-top: 1px solid #ece8f5;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    .welcome {
+        padding: 45px 18px;
+    }
+
+    .products {
+        padding: 24px 16px;
+    }
+}
+
